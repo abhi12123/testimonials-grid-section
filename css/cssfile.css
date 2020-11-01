@@ -1,25 +1,24 @@
 @font-face {
 font-family: 'ChunkFiveRegular';
 src: url('fonts/chunkfive.eot');}
-
-
 body{
 	margin:160px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	background-color: hsl(210, 46%, 95%);
 	font-family: 'Barlow Semi Condensed', sans-serif;
-	font-size: 13px;
 }
 img{
 	border-radius: 50%;
 	margin-right: 16px;
-	width:2.2em;
+	width:2.7em;
 }
 .box{
 	border-radius: 4px;
 	padding-left: 32px;
 	padding-right:32px;
-	padding-top: 26px;
-	padding-bottom: 26px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 	margin: 16px;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19);
 	display: inline-block;
@@ -32,29 +31,29 @@ img{
 #greyish{
 	background-color: hsl(217, 19%, 35%);
 	color: white;
-	width: 160px;
+	width: 210px;
 }
 #blackish{
 	background-color: hsl(219, 29%, 14%);
 	color: white;
-	width: 250px;
+	width: 540px;
 
 }
 #white{
 	background-color: hsl(0, 0%, 100%);
-	width: 256px;
+	width: 210px;
 }
 .name{
-	font-size: 11px;
+	font-size: 15px;
 	font-weight: 600;
 }
 .prof{
-	font-size: 9px;
+	font-size: 14px;
 }
 .highlight{
-	font-size: 16px;
+	font-size: 22px;
 	font-weight:600;
 }
 .quotation{
-	font-size: 11px;
+	font-size: 14px;
 }
