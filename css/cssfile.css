@@ -27,6 +27,7 @@ body{
 	display: inline-block;
 	max-width: 63%;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+	position: relative;
 }
 #box-type-2{
 	background-color: hsl(217, 19%, 35%);
@@ -60,15 +61,36 @@ img{
 	border-radius: 50%;
 	margin-right: 16px;
 	width:2.7em;
+	position: relative;
+}
+.svg {
+	z-index : 0;
+	position : absolute;
+	right: 14.035%;
 }
 .name{
 	font-weight: 600;
+	position: relative;
 }
 .prof{
+	opacity: 0.5;
+	position: relative;
 }
 .highlight{
 	font-size: 1.8em;
 	font-weight:600;
+	position: relative;
 }
 .quotation{
+	opacity:0.7;
+	position: relative;
+}
+@media screen and (max-width: 375px) {
+	body{
+		margin:6%;
+	}
+	.main-box-left,#box-type-1 ,#box-type-2,#box-type-3,#box-type-4,#box-type-5{
+		max-width: 100%;
+	}
+
 }
